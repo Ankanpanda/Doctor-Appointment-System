@@ -1,0 +1,11 @@
+CREATE TABLE appointments (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    users_email VARCHAR(100) NOT NULL,
+    doctors_id INT NOT NULL,
+    appointment_date DATE NOT NULL,
+    appointment_time VARCHAR(50) NOT NULL,
+    FOREIGN KEY (users_email) REFERENCES users(users_email),
+    FOREIGN KEY (doctors_id) REFERENCES doctors(id)
+);
+
+

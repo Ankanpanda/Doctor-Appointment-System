@@ -1,0 +1,6 @@
+CREATE TABLE admin (
+    admin_email VARCHAR(100) PRIMARY KEY,
+    admin_password VARCHAR(255)
+);
+
+INSERT INTO admin (admin_email,admin_password) VALUES ('admin@example.com','admin');

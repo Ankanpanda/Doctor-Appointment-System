@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    width: 100%;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  main {
+    display: flex;
+    padding: 20px;
+}
+
+.user-info {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.user-info h2 {
+    margin-bottom: 10px;
+}
+
+.user-info p {
+    margin-bottom: 5px;
+}
+
+.appointments {
+    flex: 2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appointments table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.appointments th,
+.appointments td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.appointments th {
+    background-color: #f0f0f0;
+}
+
+.appointments button {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#cancel-btn {
+    background-color: #e74c3c;
+}

@@ -1,0 +1,14 @@
+CREATE TABLE users (
+    users_email VARCHAR(100) PRIMARY KEY,
+    users_name VARCHAR(100),
+    password VARCHAR(255),
+    phone VARCHAR(15)
+);
+
+INSERT INTO users (users_name, users_email, password, phone) VALUES 
+('Alice Johnson', 'alice.johnson@example.com', 'hashed_password_1', '555-1234'),
+('Bob Smith', 'bob.smith@example.com', 'hashed_password_2', '555-5678'),
+('Charlie Brown', 'charlie.brown@example.com', 'hashed_password_3', '555-8765'),
+('Diana Prince', 'diana.prince@example.com', 'hashed_password_4', '555-4321'),
+('Ethan Hunt', 'ethan.hunt@example.com', 'hashed_password_5', '555-1111');
+

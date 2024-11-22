@@ -1,0 +1,31 @@
+CREATE TABLE doctors (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    doctors_name VARCHAR(100),
+    specialty VARCHAR(100),
+    city VARCHAR(100),
+    time VARCHAR(50),
+    fees DECIMAL(10, 2)
+);
+
+INSERT INTO doctors (doctors_name, specialty, city, time, fees) VALUES 
+('Dr. Anjali Sharma', 'Cardiologist', 'Kolkata', '9:00-17:00', 1500.00),
+('Dr. Rajesh Gupta', 'Neurologist', 'Delhi', '10:00-18:00', 2000.00),
+('Dr. Priya Nair', 'Pediatrician', 'Chennai', '8:00-16:00', 1200.00),
+('Dr. Vikram Mehta', 'Dermatologist', 'Mumbai', '11:00-19:00', 1800.00),
+('Dr. Neha Verma', 'Orthopedic', 'Kolkata', '9:30-17:30', 1700.00),
+('Dr. Arjun Desai', 'General Physician', 'Delhi', '9:00-15:00', 1000.00),
+('Dr. Sneha Iyer', 'Gynecologist', 'Chennai', '10:00-16:00', 1600.00),
+('Dr. Karan Patel', 'Ophthalmologist', 'Mumbai', '9:00-17:00', 1500.00),
+('Dr. Rina Sen', 'ENT Specialist', 'Kolkata', '8:30-16:30', 1300.00),
+('Dr. Sanjay Kapoor', 'Urologist', 'Delhi', '10:00-18:00', 1900.00),
+('Dr. Anushka Reddy', 'Endocrinologist', 'Chennai', '9:00-17:00', 2100.00),
+('Dr. Tarun Singh', 'Psychiatrist', 'Mumbai', '11:00-19:00', 2000.00),
+('Dr. Meera Joshi', 'Oncologist', 'Kolkata', '9:30-17:30', 2500.00),
+('Dr. Raghav Singh', 'Gastroenterologist', 'Delhi', '9:00-15:00', 2200.00),
+('Dr. Kavita Bhatia', 'Cardiothoracic Surgeon', 'Chennai', '10:00-16:00', 3000.00),
+('Dr. Vikas Rao', 'Pulmonologist', 'Mumbai', '9:00-17:00', 1800.00),
+('Dr. Sheetal Kumar', 'Rheumatologist', 'Kolkata', '8:00-16:00', 1600.00),
+('Dr. Neeraj Tyagi', 'Plastic Surgeon', 'Delhi', '10:00-18:00', 2700.00),
+('Dr. Pooja Menon', 'Family Physician', 'Chennai', '9:00-15:00', 1400.00),
+('Dr. Ajay Bansal', 'Nephrologist', 'Mumbai', '11:00-19:00', 2000.00),
+('Dr. Tanya Sethi', 'Hematologist', 'Kolkata', '9:30-17:30', 2400.00);

@@ -1,0 +1,35 @@
+.footer {
+    background-color: #03b4a5;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(251, 255, 0);
+}
+
+.footer-section {
+    margin-right: 30px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    color: aliceblue;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+    color: antiquewhite;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #666;
+}
+
+.copyright {
+    margin-top: 20px;
+}
